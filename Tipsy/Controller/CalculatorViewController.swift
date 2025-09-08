@@ -46,16 +46,13 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func calculatePressed(_ sender: UIButton) {
-        print(tipAmount)
-        print(splitNumber)
-        
-        print(billTextField.text!)
         totalBill = Double(billTextField.text ?? "0") ?? 0
         
         
         let billForEachPerson = (totalBill + (totalBill * tipAmount)) / splitNumber
         
         print(String(format: "%.2f", billForEachPerson))
+        
     }
 }
 
