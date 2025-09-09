@@ -1,10 +1,4 @@
-//
-//  ResultsViewController.swift
-//  Tipsy
-//
-//  Created by Favour Oghenekowho on 05/09/2025.
-//  Copyright © 2025 The App Brewery. All rights reserved.
-//
+
 
 import UIKit
 
